@@ -9,6 +9,7 @@ public class Login {
 		
 		try {
 			login("blue", "12345");
+			String a = " a";
 		} catch(Exception e) {
 			System.out.println(e.getMessage());
 		}
