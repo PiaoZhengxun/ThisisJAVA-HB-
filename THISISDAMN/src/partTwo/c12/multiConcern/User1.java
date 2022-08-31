@@ -1,5 +1,7 @@
 package partTwo.c12.multiConcern;
 
+import c8.exam.Soundable;
+
 public class User1 extends Thread {
 
 	private Calculator calc;
