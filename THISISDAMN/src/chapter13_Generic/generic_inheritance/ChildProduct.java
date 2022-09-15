@@ -1,0 +1,13 @@
+package chapter13_Generic.generic_inheritance;
+
+public class ChildProduct<T, M, C> extends Product {
+    private C company;
+
+    public C getCompany() {
+        return company;
+    }
+
+    public void setCompany(C company) {
+        this.company = company;
+    }
+}
