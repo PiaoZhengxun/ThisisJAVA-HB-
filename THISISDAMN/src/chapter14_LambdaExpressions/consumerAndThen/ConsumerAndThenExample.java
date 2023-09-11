@@ -3,7 +3,6 @@ package chapter14_LambdaExpressions.consumerAndThen;
 import java.util.function.Consumer;
 
 public class ConsumerAndThenExample {
-
     public static void main(String[] args) {
         Consumer<Member> consumerA = (m) -> {
             System.out.println("ConsumerA : " + m.getName());
