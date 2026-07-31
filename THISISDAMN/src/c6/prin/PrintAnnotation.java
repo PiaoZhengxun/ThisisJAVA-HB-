@@ -1,4 +1,4 @@
-package c6.annotationCheck;
+package c6.prin;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
@@ -8,7 +8,6 @@ import java.lang.annotation.Target;
 @Target({ElementType.METHOD})
 @Retention(RetentionPolicy.RUNTIME)
 public @interface PrintAnnotation {
-	String value() default "-";
-	int count() default 10;
-
+    String value() default "-";
+    int number() default 15;
 }
